@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page HTML</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <header>
+        <nav class="navigationlogo">
+            <a href="#">SHARAZA LEGACY</a>
+        </nav>
+        <!--<h2 class="logo">CHAMPION</h2>-->
+        <nav class="navigation">
+            <a href="#">About</a>
+            <a href="#">Product</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav> 
+    </header>
+
+    <div class = "wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon>
+        </span>
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder = "Username"
+                required>
+                <box-icon type='solid' name='user'></box-icon>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder = "Password"
+                required>
+                <box-icon name='lock-alt' type='solid' ></box-icon>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember me</label>
+                <a href="#"> Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account?<a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
